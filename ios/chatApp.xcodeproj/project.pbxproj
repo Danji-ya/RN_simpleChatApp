@@ -16,6 +16,12 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* chatAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* chatAppTests.m */; };
+		DA67EB5190394544BCA35B98 /* BMDOHYEON.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48ADCE95E4CD425881610E68 /* BMDOHYEON.ttf */; };
+		80E0CCF216254ACDA22E5B82 /* BMEuljiro10yearslater.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05B8E914E035490094B2BE1B /* BMEuljiro10yearslater.ttf */; };
+		11E5D93CB576492887D996C9 /* BMHANNAAir_ttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73FC4A1AFC3747DFADBB02C7 /* BMHANNAAir_ttf.ttf */; };
+		15323745C92347A4A103FA17 /* BMHANNAPro.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB10785E24A44AC3807C97D6 /* BMHANNAPro.ttf */; };
+		537FA56E1EB443FB9D0848CE /* BMJUA_ttf.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 619D09379F6F42DCB152BC57 /* BMJUA_ttf.ttf */; };
+		1AC664F2065D4A08AD5C29AA /* LemonJellyPersonalUse-dEqR.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9348B81C2C44749ADC416FC /* LemonJellyPersonalUse-dEqR.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		2D02E4901E0B4A5D006451C7 /* chatApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chatApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		48ADCE95E4CD425881610E68 /* BMDOHYEON.ttf */ = {isa = PBXFileReference; name = "BMDOHYEON.ttf"; path = "../assets/fonts/BMDOHYEON.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		05B8E914E035490094B2BE1B /* BMEuljiro10yearslater.ttf */ = {isa = PBXFileReference; name = "BMEuljiro10yearslater.ttf"; path = "../assets/fonts/BMEuljiro10yearslater.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		73FC4A1AFC3747DFADBB02C7 /* BMHANNAAir_ttf.ttf */ = {isa = PBXFileReference; name = "BMHANNAAir_ttf.ttf"; path = "../assets/fonts/BMHANNAAir_ttf.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB10785E24A44AC3807C97D6 /* BMHANNAPro.ttf */ = {isa = PBXFileReference; name = "BMHANNAPro.ttf"; path = "../assets/fonts/BMHANNAPro.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		619D09379F6F42DCB152BC57 /* BMJUA_ttf.ttf */ = {isa = PBXFileReference; name = "BMJUA_ttf.ttf"; path = "../assets/fonts/BMJUA_ttf.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C9348B81C2C44749ADC416FC /* LemonJellyPersonalUse-dEqR.ttf */ = {isa = PBXFileReference; name = "LemonJellyPersonalUse-dEqR.ttf"; path = "../assets/fonts/LemonJellyPersonalUse-dEqR.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +152,7 @@
 				00E356EF1AD99517003FC87E /* chatAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				9B05485A91FB49A68D5337E8 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +169,20 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		9B05485A91FB49A68D5337E8 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				48ADCE95E4CD425881610E68 /* BMDOHYEON.ttf */,
+				05B8E914E035490094B2BE1B /* BMEuljiro10yearslater.ttf */,
+				73FC4A1AFC3747DFADBB02C7 /* BMHANNAAir_ttf.ttf */,
+				BB10785E24A44AC3807C97D6 /* BMHANNAPro.ttf */,
+				619D09379F6F42DCB152BC57 /* BMJUA_ttf.ttf */,
+				C9348B81C2C44749ADC416FC /* LemonJellyPersonalUse-dEqR.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +322,12 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DA67EB5190394544BCA35B98 /* BMDOHYEON.ttf in Resources */,
+				80E0CCF216254ACDA22E5B82 /* BMEuljiro10yearslater.ttf in Resources */,
+				11E5D93CB576492887D996C9 /* BMHANNAAir_ttf.ttf in Resources */,
+				15323745C92347A4A103FA17 /* BMHANNAPro.ttf in Resources */,
+				537FA56E1EB443FB9D0848CE /* BMJUA_ttf.ttf in Resources */,
+				1AC664F2065D4A08AD5C29AA /* LemonJellyPersonalUse-dEqR.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
